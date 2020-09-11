@@ -16,6 +16,7 @@ header {
 .container {
     margin: 0 auto;
     width: 1352px;
+    box-sizing: border-box;
 }
 .container__menu {
     margin: 0 auto;
@@ -72,6 +73,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 .section__open__background {
     width: 1352px;
@@ -107,6 +109,7 @@ header {
 .section__statistic__box {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .box1 {
     margin-right: 245px;
@@ -132,7 +135,7 @@ header {
     left: 30px;
     top: 3px;
     margin-bottom:20px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .logo3 {
     position: absolute;
@@ -183,4 +186,46 @@ header {
 }
 .box__text3 {
     text-align: center;
+}
+.section__benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color: #F7F7F7;
+
+}
+.benefit__photo {
+    height: 219px;
+    width: 386px;
+}
+.container__benefits {
+    background-color: white;
+    height: 370px;
+    width: 1124px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.benefit__text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    padding-left: 30px;
+}
+.benefit__box {
+    height: 188px;
+    width: 416px;
+    margin-right: 110px;
+    padding-right: 110px;
+    border-bottom: 3px solid #FB3B64;
 }
