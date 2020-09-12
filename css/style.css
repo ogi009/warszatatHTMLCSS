@@ -482,3 +482,58 @@ section {
     content: url("../assets/Ckechmark-1.svg");
     margin-right: 10px;
 }
+
+.section__contact {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.information {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 40px;
+
+}
+.contact__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    margin-bottom: 30px;
+}
+.contact__text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+.mail,
+.phone {
+    color: #A5A5A5;
+    font-family: "Open Sans";
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.mail::before {
+    content: url("../assets/Mail Icon.svg");
+}
+.phone::before {
+    content: url("../assets/Phone Icon.svg");
+}
+input {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 11px;
+    color: #08A6E4;
+
+}
+input [type="checkbox"] {
+    font-family: "Open Sans";
+    font-size: 11px;
+    color: #707070;
+}
