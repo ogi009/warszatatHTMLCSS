@@ -8,10 +8,16 @@
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
 }
+*{
+    box-sizing: border-box;
+}
 header {
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+section {
+    width: 100vw;
 }
 .container {
     margin: 0 auto;
@@ -19,6 +25,7 @@ header {
     box-sizing: border-box;
 }
 .container__menu {
+    width: 100vw;
     margin: 0 auto;
     margin-top: 16px;
     height: 70px;
@@ -189,15 +196,18 @@ header {
 }
 .section__benefits {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height:500px;
+    flex-direction: column;
     background-color: #F7F7F7;
-
+    height: 1395px;
 }
-.benefit__photo {
+.benefit__photo1 {
     height: 219px;
     width: 386px;
+    float: right;
+    position: relative;
+    top: -185px;
+    right: 117px;
 }
 .container__benefits {
     background-color: white;
@@ -205,18 +215,18 @@ header {
     width: 1124px;
     border: 1px solid lightgrey;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top: 100px;
+
 }
-.benefits_title {
+.benefits__box__title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     color: #000000;
     padding-bottom: 30px;
     padding-left: 30px;
 }
-.benefit__text {
+.benefit__box__text {
     font-family: "Open Sans";
     font-size: 16px;
     color: #000000;
@@ -225,7 +235,130 @@ header {
 .benefit__box {
     height: 188px;
     width: 416px;
+    margin-top: 91px;
     margin-right: 110px;
     padding-right: 110px;
-    border-bottom: 3px solid #FB3B64;
+    border-bottom: 4px solid #FB3B64;
+}
+.container__benefits::before {
+    content: "";
+    height: 200px;
+    width: 200px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    background-color: #FB3B64;
+    border-radius: 41px;
+    position: absolute;
+    bottom: 105px;
+    right: 85px;
+}
+.container__benefits__second {
+    background-color: white;
+    height: 370px;
+    width: 1124px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    position: relative;
+    top: 130px;
+}
+.benefit__photo2 {
+    height: 328px;
+    width: 426px;
+    float: left;
+    position: relative;
+    top: -255px;
+    left: 107px;
+}
+.benefits__box__second__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.benefit__box__second__text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    padding-left: 30px;
+}
+.benefit__box__second {
+    height: 220px;
+    width: 416px;
+    margin-top: 91px;
+    margin-left: 650px;
+    padding-right: 110px;
+    border-bottom: 4px solid #08A6E4;
+}
+.container__benefits__second::before {
+    content: "";
+    height: 320px;
+    width: 320px;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 85px;
+}
+.container__benefits__third {
+    background-color: white;
+    height: 370px;
+    width: 623px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    position: relative;
+    top: 170px;
+    right: 250px;
+}
+.benefit__photo3 {
+    box-sizing: border-box;
+    height: 328px;
+    width: 426px;
+    float: right;
+    position: relative;
+    top: -115px;
+    left: 337px;
+}
+.benefits__box__third__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 90px;
+    display: block;
+}
+.benefit__box__third__text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.benefit__box__third {
+    height: 220px;
+    width: 416px;
+    margin-top: 91px;
+    margin-left: 650px;
+    padding-right: 110px;
+    border-bottom: 4px solid #08A6E4;
+}
+.container__benefits__third::before {
+    content: "";
+    height: 320px;
+    width: 320px;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    background-color: #55DFB4;
+    border-radius: 5px;
+    border: 1px solid #E8E9ED;
+    position: absolute;
+    bottom: -10px;
+    left: 735px;
 }
