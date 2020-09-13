@@ -427,7 +427,7 @@ section {
     border: 1px solid #07ACE6;
     box-shadow: 5px 10px 27px #07ACE629;
     width: calc(25% + 10px);
-    height: calc(10% + 10px);
+
 }
 
 .pricing__box__3 {
@@ -490,7 +490,8 @@ section {
     margin-top: 70px;
 }
 .information {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin: 40px;
 
@@ -525,15 +526,47 @@ form {
 .phone::before {
     content: url("../assets/Phone Icon.svg");
 }
-input {
+
+input [type="form__test"] {
     font-family: "Open Sans";
-    font-weight: bold;
     font-size: 11px;
     color: #08A6E4;
+}
+footer {
+  background-color: #F7F7F7;
+    box-shadow: 0px -5px 40px #00000029;
+    margin: 0 auto;
 
 }
-input [type="checkbox"] {
+.footer__box {
+    width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+}
+.footer__box__1 {
+    margin-right: 700px;
+
+}
+.footer__box__2 {
+    margin-top: 30px;
+}
+.facebook,
+.twitter {
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer__name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: var(--color-primary);
+    margin: 10px;
+}
+.footer__license {
+    margin: 10px;
+}
+.form__name {
     font-family: "Open Sans";
     font-size: 11px;
-    color: #707070;
+    color: #08A6E4;
 }
