@@ -527,10 +527,12 @@ form {
     content: url("../assets/Phone Icon.svg");
 }
 
-input [type="form__test"] {
+input[type="text"] {
     font-family: "Open Sans";
     font-size: 11px;
     color: #08A6E4;
+    background-color: #07ACE6;
+    padding: 100px;
 }
 footer {
   background-color: #F7F7F7;
