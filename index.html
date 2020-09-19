@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
     <title>BestShop</title>
 </head>
 <body>
 <header class="header__menu">
-    <nav class="container container__menu">
+    <div class="container container__menu">
         <p class="main__name">BestShop</p>
-        <div class="menu1">
+        <nav class="menu1">
             <ul class="menu__list">
-                <li class="why__us"><a href="#why__us">Why Us</a></li>
-                <li class="benefits"><a href="#benefits">Benefits</a></li>
-                <li class="prices"><a href="#prices">Prices</a></li>
-                <li class="contact"><a href="#contact">Concact</a></li>
+                <li class="why__us"><a href="#why__us" class="a">Why Us</a></li>
+                <li class="benefits"><a href="#benefits" class="a">Benefits</a></li>
+                <li class="prices"><a href="#prices" class="a">Prices</a></li>
+                <li class="contact"><a href="#contact" class="a">Concact</a></li>
             </ul>
-        </div>
-    </nav>
+            <button class="burger">
+                <span class="b1"></span>
+                <span class="b1"></span>
+                <span class="b1"></span>
+            </button>
+        </nav>
+    </div>
 </header>
 <section class="section__open">
     <div class="container container__open__first">
@@ -50,7 +57,7 @@
         </div>
     </div>
 </section>
-<section id="benefits" class="container section__benefits">
+<section id="benefits" class="container2 section__benefits">
     <div class="container__benefits">
         <div class="benefit__box">
             <h2 class="benefits__box__title">Be always first</h2>
@@ -58,25 +65,29 @@
         </div>
         <img class="benefit__photo benefit__photo1" src="assets/Macbook.png">
     </div>
-    <div class="container__benefits__second">
+    <div class="container__benefits container__benefits__second">
         <div class="benefit__box__second">
             <h2 class="benefits__box__second__title">Your shop is where you are!</h2>
             <p class="benefit__box__second__text benefit__second__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
         <img class="benefit__photo benefit__photo2" src="assets/iPhone.png">
     </div>
-    <div class="container__benefits__third">
+    <div class="container__benefits container__benefits__third">
+        <div class="benefit__box__third">
             <h2 class="benefits__box__third__title">Increase recognition <br>your brand!</h2>
             <p class="benefit__box__third__text benefit__second__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </div>
     <img class="benefit__photo benefit__photo3" src="assets/Trumpet.png">
+        </div>
 </section>
 <section id="prices" class="pricing">
     <h2 class="pricing__title">Pricing</h2>
     <div class="pricing__box__postion">
         <div class="pricing__box pricing__box__1">
+            <div class="kupa2">
             <h3 class="pricing__box__title pricing__box__title1">Basic</h3>
             <p class="price price__1">$ 0</p>
+            </div>
             <ul class="pricing__box__list pricing__box__list1">
                 <li class="box__list__elements box__list__element1">100 MB HDD</li>
                 <li class="box__list__elements box__list__element2">1 Subdomain</li>
@@ -87,8 +98,10 @@
             <a class="box__list__link box__list__link1" href="#">Begin</a>
          </div>
         <div class="pricing__box pricing__box__2">
+            <div class="kupa2">
          <h3 class="pricing__box__title pricing__box__title2">Proffesional</h3>
             <p class="price price__2">$ 25</p>
+            </div>
              <ul class="pricing__box__list pricing__box__list2">
                  <li class="box__list__elements box__list2__element1">500 MB HDD</li>
                 <li class="box__list__elements box__list2__element2">2 Subdomain</li>
@@ -99,8 +112,10 @@
             <a class="box__list__link box__list__link2" href="#">Begin</a>
         </div>
         <div class="pricing__box pricing__box__3">
-             <h3 class="pricing__box__title pricing__box__title3">Premium</h3>
-            <p class="price price__3">$ 60</p>
+            <div class="kupa2">
+                <h3 class="pricing__box__title pricing__box__title3">Premium</h3>
+                <p class="price price__3">$ 60</p>
+            </div>
             <ul class="pricing__box__list pricing__box__list3">
                  <li class="box__list__elements box__list3__element1">2 GB HDD</li>
                 <li class="box__list__elements box__list3__element2">5 Subdomain</li>
@@ -122,13 +137,18 @@
         </div>
     </div>
     <form>
-
-        <label for="text">Name</label>
-        <input type="text" id="text">
-        <label for="email">Email</label>
-        <input type="email" id="email">
+        <div class="form1">
+            <label for="text" class="form__name">Name</label>
+            <input type="text" id="text">
+        </div>
+        <div class="form1">
+            <label for="email" class="form__name">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form2">
         <input type="checkbox" id="chk">
         <label for="chk">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+        </div>
     </form>
 </section>
 <footer>
@@ -137,11 +157,9 @@
              <p class="footer__name">BestShop</p>
              <p class="footer__license">© 2019 BestShop LTD, All Rights Reserved</p>
         </div>
-         <div class="footer__box__2">
-             <a class="facebook" href="http://facebook.pl"><img src="assets/Facebook.svg" </a>
-             <a class="twitter" href="http://twitter.pl"><img src="assets/Twitter.svg" </a>
-        </div>
+
     </div>
 </footer>
+<script src="app.js"></script>
 </body>
 </html>

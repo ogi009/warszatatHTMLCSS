@@ -1,0 +1,427 @@
+
+.section__open__background {
+  width: 100%;
+}
+.section__open__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 49px;
+  margin-top: 130px;
+}
+.section__open__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-top: 20px;
+}
+.section__open__link {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #08A6E4;
+  padding: 27px 157px;
+  border-radius: 40px;
+  box-shadow: 5px 10px 14px #07ACE629;
+  margin-top: 38px;
+}
+.section__statistic__title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  margin: 100px;
+}
+.section__statistic__box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.box1 {
+  margin-right: 245px;
+  position: relative;
+}
+.box2 {
+  margin-right: 245px;
+  position: relative;
+}
+.box3 {
+  position: relative;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.logo1 {
+  position: absolute;
+  left: 30px;
+  padding: 15px;
+}
+.logo2 {
+  position: absolute;
+  left: 30px;
+  top: 3px;
+  margin-bottom:20px;
+  padding-top: 25px;
+}
+.logo3 {
+  position: absolute;
+  left: 32px;
+  padding-top: 20px;
+}
+.box1::before {
+  content: "";
+  height: 63px;
+  width: 63px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+  background-color: #FB3B64;
+  border-radius: 50%;
+}
+
+.box__text {
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+}
+.box__text__second {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #A5A5A5
+}
+.box2::before {
+  content: "";
+  height: 63px;
+  width: 63px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+  background-color: #08A6E4;
+  border-radius: 50%;
+}
+.box3::before {
+  content: "";
+  height: 63px;
+  width: 63px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+  background-color: #55DFB4;
+  border-radius: 50%;
+}
+.box__text3 {
+  text-align: center;
+}
+.section__benefits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F7F7F7;
+  height: 1395px;
+}
+.benefit__photo1 {
+  height: 219px;
+  width: 386px;
+  float: right;
+  position: relative;
+  top: -185px;
+  right: 117px;
+}
+.container__benefits {
+  background-color: white;
+  height: 370px;
+  width: 1124px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position: relative;
+  top: 100px;
+
+}
+.benefits__box__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.benefit__box__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #000000;
+  padding-left: 30px;
+}
+.benefit__box {
+  height: 188px;
+  width: 416px;
+  margin-top: 91px;
+  margin-right: 110px;
+  padding-right: 110px;
+  border-bottom: 4px solid #FB3B64;
+}
+.container__benefits::before {
+  content: "";
+  height: 200px;
+  width: 200px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  margin: 10px;
+  display: inline-block;
+  float: right;
+  background-color: #FB3B64;
+  border-radius: 41px;
+  position: absolute;
+  bottom: 105px;
+  right: 85px;
+}
+.container__benefits__second {
+  background-color: white;
+  height: 370px;
+  width: 1124px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position: relative;
+  top: 130px;
+}
+.benefit__photo2 {
+  height: 328px;
+  width: 426px;
+  float: left;
+  position: relative;
+  top: -255px;
+  left: 107px;
+}
+.benefits__box__second__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.benefit__box__second__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #000000;
+  padding-left: 30px;
+}
+.benefit__box__second {
+  height: 220px;
+  width: 416px;
+  margin-top: 91px;
+  margin-left: 650px;
+  padding-right: 110px;
+  border-bottom: 4px solid #08A6E4;
+}
+.container__benefits__second::before {
+  content: "";
+  height: 320px;
+  width: 320px;
+  margin: 10px;
+  display: inline-block;
+  float: right;
+  background-color: #07ACE6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+  left: 85px;
+}
+.container__benefits__third {
+  background-color: white;
+  height: 370px;
+  width: 723px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position: relative;
+  top: 170px;
+  right: 250px;
+  margin-left: 97px;
+  padding-right: 150px;
+}
+.benefit__photo3 {
+  box-sizing: border-box;
+  height: 328px;
+  width: 426px;
+  float: right;
+  position: relative;
+  top: -115px;
+  left: 350px;
+}
+.benefits__box__third__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-top: 90px;
+  display: block;
+}
+.benefit__box__third__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 4px solid #55DFB4;
+}
+
+.container__benefits__third::before {
+  content: "";
+  height: 325px;
+  width: 370px;
+  margin: 10px;
+  display: inline-block;
+  float: right;
+  background-color: #55DFB4;
+  border-radius: 5px;
+  border: 1px solid #E8E9ED;
+  position: absolute;
+  bottom: -10px;
+  left: 740px;
+}
+.pricing {
+  margin: 0 auto;
+  width: 1352px;
+}
+.pricing__title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.pricing__box__postion {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing__box {
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 42px 60px 0 60px;
+  text-align: center;
+}
+.pricing__box__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 14px;
+}
+.price {
+  font-family: "Open Sans";
+  font-weight: lighter;
+}
+.price__1 {
+  color: #FB3B64;
+}
+.price__2 {
+  color: #07ACE6;
+}
+.price__3 {
+  color: #55DFB4;
+}
+.price {
+  font-family: "Open Sans";
+  font-size: 46px;
+  margin-bottom: 49px;
+
+}
+.box__list__elements {
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 14px;
+
+}
+.box__list__link {
+  background-color: #EB476E;
+  border-radius: 23px;
+  padding: 16px 57px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+.pricing__box__1 {
+  border: 1px solid #FB3B64;
+  margin-left: 180px;
+}
+.pricing__box__2 {
+  border: 1px solid #07ACE6;
+  box-shadow: 5px 10px 27px #07ACE629;
+  width: calc(25% + 10px);
+
+}
+
+.pricing__box__3 {
+  border: 1px solid #55DFB4;
+  margin-right: 180px;
+}
+.box__list__link2 {
+  background-color: #07ACE6;
+}
+.box__list__link3 {
+  background-color: #55DFB4;
+}
+.pricing__box__list {
+  padding-bottom: 20px;
+}
+.box__list__element1::before {
+  content: url("assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+.box__list__element2::before {
+  content: url("assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+.box__list__element3::before {
+  content: url("assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+.box__list__element4::before {
+  content: url("assets/Close.svg");
+  margin-right: 10px;
+}
+.box__list__element5::before {
+  content: url("assets/Close.svg");
+  margin-right: 10px;
+}
+.box__list2__element1::before,
+.box__list2__element2::before,
+.box__list2__element3::before,
+.box__list2__element4::before {
+  content: url("assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+.box__list2__element5::before {
+  content: url("assets/Close.svg");
+  margin-right: 10px;
+}
+.box__list3__element1::before,
+.box__list3__element2::before,
+.box__list3__element3::before,
+.box__list3__element4::before,
+.box__list3__element5::before {
+  content: url("assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+
+.section__contact {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 40px;
+
+}
+.contact__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 49px;
+  margin-bottom: 30px;
+}
+.contact__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+

@@ -1,0 +1,48 @@
+.main__name {
+  align-self: center;
+  margin-left: 136px;
+}
+.menu__list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__list li {
+  padding-top: 28px;
+}
+.menu__list li a {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 11px;
+  color: #A5A5A5;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 95px;
+  padding: 13px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+.menu__list li:hover {
+
+}
+.menu__list li a:hover {
+  color: black;
+  border-bottom: 4px solid #08A6E4;
+}
+
+.main__name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  color: var(--color-primary);
+}
+.section__open {
+  display: flex;
+
+
+}
+.container__open__first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}

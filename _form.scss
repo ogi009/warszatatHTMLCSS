@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+.mail,
+.phone {
+  color: #A5A5A5;
+  font-family: "Open Sans";
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.mail::before {
+  content: url("assets/Mail Icon.svg");
+}
+.phone::before {
+  content: url("assets/Phone Icon.svg");
+}
+
+footer {
+  background-color: #F7F7F7;
+  box-shadow: 0px -5px 40px #00000029;
+  margin: 0 auto;
+
+}

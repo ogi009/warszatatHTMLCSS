@@ -1,0 +1,278 @@
+@import "nav";
+@import "sections";
+@import "form";
+@import "footer";
+
+@media(max-width: 1352px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .container__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__menu {
+    height: 30px;
+  }
+  .menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 30px;
+  }
+  .container__menu {
+    height: 40px;
+  }
+  .menu__list li a {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 75px;
+    padding: 13px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    &:hover {
+      color: #08A6E4;
+    }
+  }
+}
+.form__name {
+  color: #07ACE6;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+input[type="text"] {
+  background-color: white;
+  border: blue;
+  border-bottom: 2px solid grey;
+  margin: 5px;
+}
+.form__name {
+  font-family: "Open Sans";
+  font-size: 25px;
+  color: #08A6E4;
+  text-transform: uppercase;
+}
+input[type="email"] {
+  background-color: white;
+  border: blue;
+  border-bottom: 2px solid grey;
+  margin: 5px;
+}
+.form2 {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .pricing{
+    width: 70vw;
+  }
+  .section__statistic__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    padding: 0;
+  }
+  .box1,
+  .box2 {
+    margin-right: 0;
+  }
+  .section__statistic__title {
+    margin: 30px;
+  }
+  .pricing__box__postion {
+    width: 100%;
+    justify-content: center;
+  }
+  .pricing__box__1 {
+    margin-left: 160px;
+    margin-right: 20px;
+  }
+  .pricing__box__2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.burger {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .section__statistic__title {
+    margin-top: 60px;
+  }
+  .section__open__title {
+    margin-top: 50px;
+  }
+  .container__benefits__third {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefit__box__third {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__benefits {
+    transform: scale(0.5);
+    margin-top: -150px;
+    padding: 0;
+  }
+  .container__benefits__third {
+    margin-right: -194px;
+    width: 100%;
+  }
+  .container__benefits__third::before {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: none;
+  }
+  .b1 {
+    background-color: #07ACE6;
+    height: 3px;
+    width: 20px;
+    margin: 2px;
+  }
+  .menu__list {
+    position: fixed;
+    top: 0;
+    left: -320px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    background-color: #08A6E4;
+    width: 300px;
+    padding-top: 30px;
+    margin: 0;
+  }
+  .menu__list li a {
+    &:hover {
+      color: #F7F7F7;
+      box-shadow: black;
+    }
+  }
+  .menu__list.show {
+    left: -30px;
+    z-index: 1;
+  }
+  .container__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .main__name {
+    margin: 0;
+  }
+  .pricing {
+    width: 100vw;
+  }
+  .pricing__box {
+    width: 70%;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    a {
+      height: 50px;
+      position: absolute;
+      bottom: -1.3em;
+      justify-content: center;
+    }
+
+  }
+  .pricing__box__postion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing__box__2 {
+    transform: scale(1.1);
+    margin: 50px;
+  }
+  .footer__box {
+    width: 100vw;
+  }
+  .container2 {
+    height: 100vh;
+  }
+  .kupa2 {
+    margin-right: 10px;
+  }
+  .section__contact {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing__title {
+    margin: 20px;
+  }
+
+  .form__name {
+    color: #07ACE6;
+  }
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  input[type="text"] {
+    background-color: white;
+    border: blue;
+    border-bottom: 2px solid grey;
+    margin: 5px;
+  }
+  .form__name {
+    font-family: "Open Sans";
+    font-size: 25px;
+    color: #08A6E4;
+    text-transform: uppercase;
+  }
+  input[type="email"] {
+    background-color: white;
+    border: blue;
+    border-bottom: 2px solid grey;
+    margin: 5px;
+  }
+  .form2 {
+    display: flex;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .footer__box__1 {
+    margin-right: 90px;
+
+  }
+}
+
+
